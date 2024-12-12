@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>ANSWERS TO QUESTIONS</title> 
+</head>
+<body>
+
+<H1>ANSWERS TO QUESTIONS</H1>
+<H2>QUESTIONS 1 : Can we place a &ltform&gt inside another  &ltform&gt?*
+</H2>
+<h3>We can't do that because it's against HTML standards and will lead to unexpected behavior like: </h3>
+
+
+    <form action="" >
+      <input type="text" name="outer">
+    
+      <form action="" >
+        <input type="text" name="inner"><br>
+        <button type="submit">Submit Inner Form</button>
+      </form>
+    
+      <button type="submit">Submit Outer Form</button>
+    </form>
+
+<h2>if we need to create a form within a form, we resort to division but it is sent in one go</h2>
+
+<form action="" >
+<fieldset>
+    <input type="text" name="inner" >
+    <button type="submit">Submit Inner Form</button>
+</fieldset>
+<fieldset>
+    <input type="text" name="outer">
+    <button type="submit">Submit Outer Form</button>
+</fieldset>
+</form>
+<h2>Q2.A.What happens if there is more than one submit button in the same form? </h2>
+<p>The form will still function normally, but the button that is pressed will determine the data<br> that is submitted. If there is more than one submit button, the browser will submit the data<br> based on which button was selected.</p>
+
+</body>
+
+</html>
+
+
