@@ -1,0 +1,14 @@
+html{background-color: hsl(33, 85%, 90%);
+margin-right: 50px;}
+.class1{background-color: orange ;}
+.class2{background-color: yellow;}
+div{border: solid 1px;
+padding: 5px;}
+
+#div2{
+    border: dashed 2px;
+}
+.class3{border:dashed 2px;}
+.class3{border-color: red;}
+.div3{color: blueviolet; border-color: black;}
+div, #div2,.div3{background-color: white;}
