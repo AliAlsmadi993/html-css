@@ -1,0 +1,26 @@
+.container {
+    width: fit-content;
+    border: 1px dotted black;
+    display: flex;
+    margin-bottom: 20px;
+}
+.box {
+    margin: 1px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: static;
+}
+.box.two {
+    background-color: green;
+}
+.relative .box.two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absolute .box.two {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
