@@ -1,7 +1,10 @@
+
+
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #f5e4b6; /* لون الخلفية */
+    background-color: #f5e4b6; 
     display: flex;
     justify-content: center;
     align-items: center;
