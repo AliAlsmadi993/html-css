@@ -7,7 +7,7 @@ padding: 0%;}
     
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQbE30oVCQ83jfOu2cN_PZw1NlblHIKyF3JA&s') no-repeat  center;
     background-size: cover;
-    opacity: 85%;
+    opacity: 90%;
   }
   .header .overlay {
     position: absolute;
@@ -30,6 +30,8 @@ padding: 0%;}
   }
   
   .btn {
+    
+
     background: #000;
     color: #fff;
     padding: 10px 20px;
@@ -51,6 +53,7 @@ padding: 0%;}
     
   
   .cards {
+    
     margin-top: 40px;
     margin-left: -20px;
     margin-right: -20px;
@@ -77,6 +80,7 @@ padding: 0%;}
 }
 
 .card:hover {
+  filter: brightness(1.2);
   transform: scale(1.1);
   transition-duration:  1s;
 }
@@ -88,6 +92,7 @@ padding: 0%;}
 }
 
 .card-image img {
+  
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -137,13 +142,13 @@ margin-bottom: 60px;}
       padding: 20px;
       transition: background-color 2.7s ease, color 2.7s ease; 
   }
-  
+
   .footer-section:hover {
       background-color: #007bff; 
-      cursor: pointer; 
   }
   
   .div4  {
+    
     color: #f8f8f8;
     text-align: center;
     padding: 20px;
