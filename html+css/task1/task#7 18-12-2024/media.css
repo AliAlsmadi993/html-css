@@ -1,4 +1,9 @@
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 300px) and (max-width: 899px) {
+    
+    
+    .nav-links {
+        padding-left: 12px;}
+    
     .hero-text h1 {
         font-size: 2rem;
     }
