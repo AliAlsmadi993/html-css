@@ -285,6 +285,7 @@ section {
 }
 
 .contact form {
+  color: #eeecec;
   width: 60%;
   margin: auto;
   display: flex;
@@ -293,6 +294,7 @@ section {
 }
 
 .contact form input {
+  color: #eeecec;
   box-shadow: 0px 5px 20px 0px rgba(148, 148, 148, 0.848);
   width: 48%;
   background-color: #817f7f;
@@ -312,6 +314,13 @@ section {
   border-radius: 10px;
   width: 100%;
   padding: 10px;
+}
+
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  color: #ffffff; 
+  opacity: 1; 
 }
 
 .contact form textarea:focus,
