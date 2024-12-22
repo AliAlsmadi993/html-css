@@ -1,120 +1,118 @@
-@media (min-width: 300px) and (max-width: 899px) {
-    
-    
-    .nav-links {
-        padding-left: 12px;}
-    
+/* تصميم لحجم الشاشات بين 600px و900px */
+@media (min-width: 600px) and (max-width: 899px) {
     .hero-text h1 {
-        font-size: 2rem;
+        font-size: 2rem; /* تصغير النصوص */
     }
 
     .hero-buttons .btn {
-        padding: 10px 20px;
+        padding: 10px 20px; /* تقليل حجم الأزرار */
     }
 
     .products-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* تقليل عدد الأعمدة */
         gap: 15px;
     }
 
     .product-card {
-        height: auto;
+        height: auto; /* جعل البطاقات تتكيف */
         padding: 15px;
     }
 
     .product-card h4 {
-        font-size: 0.9rem;
+        font-size: 0.9rem; /* تصغير النصوص داخل البطاقات */
     }
 
     .testimonial-text {
-        font-size: 0.9rem;
+        font-size: 0.9rem; /* تصغير النصوص */
     }
 
     .newsletter-form input {
-        width: 150px;
+        width: 150px; /* تقليل عرض الحقول */
     }
 
     .footer-links {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* تقليل عدد الأعمدة */
         gap: 10px;
     }
 
     .social-media span {
-        width: 25px;
+        width: 25px; /* تقليل حجم الأيقونات */
         height: 25px;
     }
 }
 
+/* تصميم لحجم الشاشات بين 900px و1200px */
 @media (min-width: 900px) and (max-width: 1199px) {
     .hero-text h1 {
-        font-size: 2.5rem;
+        font-size: 2.5rem; /* تعديل حجم النصوص */
     }
 
     .hero-buttons .btn {
-        padding: 12px 24px;
+        padding: 12px 24px; /* تعديل حجم الأزرار */
     }
 
     .products-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr); /* الحفاظ على الأعمدة */
         gap: 20px;
     }
 
     .product-card {
-        padding: 20px;
+        padding: 20px; /* تعديل المسافات الداخلية */
     }
 
     .testimonial-text {
-        font-size: 1rem;
+        font-size: 1rem; /* تعديل حجم النصوص */
     }
 
     .newsletter-form input {
-        width: 180px;
+        width: 180px; /* تعديل عرض الحقول */
     }
 
     .footer-links {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr); /* تعديل عدد الأعمدة */
         gap: 15px;
     }
 
     .social-media span {
-        width: 30px;
+        width: 30px; /* ضبط حجم الأيقونات */
         height: 30px;
     }
 }
 
+/* تصميم لحجم الشاشات أكبر من 1200px */
 @media (min-width: 1200px) {
     .hero-text h1 {
-        font-size: 3rem;
+        font-size: 3rem; /* زيادة حجم النصوص */
     }
 
     .hero-buttons .btn {
-        padding: 15px 30px;
+        padding: 15px 30px; /* زيادة حجم الأزرار */
     }
 
     .products-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr); /* إضافة أعمدة */
         gap: 25px;
     }
 
     .product-card {
-        padding: 25px;
+        padding: 25px; /* زيادة المسافات الداخلية */
     }
 
     .testimonial-text {
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* زيادة حجم النصوص */
     }
 
     .newsletter-form input {
-        width: 200px;
+        width: 200px; /* زيادة عرض الحقول */
     }
 
     .footer-links {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr); /* الحفاظ على الأعمدة */
         gap: 20px;
     }
 
     .social-media span {
-        width: 35px;
+        width: 35px; /* زيادة حجم الأيقونات */
         height: 35px;
     }
 }

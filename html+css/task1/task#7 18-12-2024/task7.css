@@ -11,6 +11,7 @@ body {
     color: #333333;
 }
 
+/* الهيدر */
 .header {
     background-color: #336e65;
     color: #ffffff;
@@ -19,6 +20,7 @@ body {
     height: auto;
 }
 
+/* شريط التنقل */
 .navbar {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -62,6 +64,7 @@ body {
     color: #ffcc00;
 }
 
+/* الأيقونات */
 .icons {
     color: #ffffff;
     display: flex;
@@ -140,12 +143,13 @@ body {
     z-index: 2;
 }
 
+/* النقاط الصفراء */
 .yellow {
     margin-top: 40px;
     position: absolute;
-  top: -1px;
+  top: -3px;
   bottom: 7%;
-  left: 500px;
+  left: 250px;
   width: 48%;
   height: 38%;
   background-image: radial-gradient(circle, #ffcc00 2px, transparent 2px);
@@ -154,6 +158,7 @@ body {
   z-index: 1;
 }
 
+/* إعدادات عامة */
 .products-section {
     display: flex;
     justify-content: space-between;
@@ -318,8 +323,7 @@ body {
 }
 
 .choose-icon {
-
-    font-size: 2.5rem;
+    font-size: 0.5rem;
     color: #333333;
     text-align: left;
 }
@@ -363,6 +367,7 @@ body {
     opacity: 0.5;
     z-index: 1;
 }
+/* تهيئة القسم بالكامل */
 .interior-design-section {
     display: flex;
     justify-content: space-between;
@@ -375,11 +380,12 @@ body {
   }
 
 
+/* حاوية الصور */
 
 .images-container {
     position: relative;
-    width: 50%; 
-    height: 400px; 
+    width: 50%; /* عرض الحاوية */
+    height: 400px; /* ارتفاع الحاوية ثابت */
 }
 .dot9{ position: absolute;
     top: -65px;
@@ -478,12 +484,14 @@ body {
 .btn-explore:hover {
     transform: scale(1.05);
 }
+/* القسم العام */
 .products-section {
     padding: 2% 5%;
     background-color: #f9f9f9;
     position: relative;
 }
 
+/* حاوية البطاقات */
 .cards-container {
     display: flex;
     gap: 15px;
@@ -500,13 +508,14 @@ body {
 }
 
 .left-arrow {
-    left: -30px; 
+    left: -30px; /* السهم الأيسر خارج الحاوية */
 }
 
 .right-arrow {
-    right: -45px; 
+    right: -45px; /* السهم الأيمن خارج الحاوية */
 }
 
+/* البطاقة */
 .card {
     margin-left: 15px;
     display: flex;
@@ -518,12 +527,13 @@ body {
     width: 365px;
     height: 250px;}
 
+/* خلفية حول الصورة */
 .image-wrapper {
     background-color: #e6e6e6;
     border-radius: 10px;
     position: relative;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    padding: 8px; 
+    padding: 8px; /* مسافة حول الصورة */
 }
 
 .card-image img {
@@ -533,6 +543,7 @@ body {
     border-radius: 10px;
 }
 
+/* النصوص بجانب الصورة */
 .card-text {
     display: flex;
     flex-direction: column;
@@ -542,19 +553,19 @@ body {
 }
 
 .card-text h4 {
-    font-size: 0.75rem;
+    font-size: 0.75rem; /* تصغير حجم العنوان */
     margin: 0 0 5px;
     color: #333333;
 }
 
 .card-text p {
-    font-size: 0.75rem; 
+    font-size: 0.75rem; /* تصغير حجم النص */
     margin: 0 0 5px;
     color: #666666;
 }
 
 .card-text a {
-    font-size: 0.75rem; 
+    font-size: 0.75rem; /* تصغير حجم الرابط */
     color: #336e65;
     text-decoration: none;
     font-weight: bold;
@@ -562,55 +573,60 @@ body {
 
 .card-text a:hover {
     text-decoration: underline;
-}
+}/* تصميم الكارد (يبقى كما هو) */
 .cards-container {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-bottom: 50px; 
+    margin-bottom: 50px; /* مسافة فاصلة بين الكارد وTestimonials */
 }
 
+/* قسم Testimonials */
 .testimonials-section {
     margin-top: 500px;
     margin-right: 900px;
-    width: 100%; 
-    background-color: #f9f9f9; 
-    padding: 50px 20px; 
-    margin-top: 50px; 
-    text-align: center; 
+    width: 100%; /* عرض كامل */
+    background-color: #f9f9f9; /* لون الخلفية */
+    padding: 50px 20px; /* مسافات داخلية */
+    margin-top: 50px; /* مسافة فوق القسم */
+    text-align: center; /* محاذاة النصوص في الوسط */
 }
 
+/* العنوان */
 .testimonials-section h2 {
-    font-size: 2rem;
+    font-size: 2rem; /* حجم العنوان */
     font-weight: bold;
     color: #333333;
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* مسافة بين العنوان والنص */
 }
 
+/* محتوى النصوص والأسهم */
 .testimonial-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 900px;
-    margin: 0 auto;
+    display: flex; /* لعرض النص والأسهم بجانب بعض */
+    align-items: center; /* محاذاة العناصر عموديًا */
+    justify-content: center; /* محاذاة العناصر أفقيًا */
+    gap: 20px; /* مسافة بين النص والأسهم */
+    max-width: 900px; /* العرض الأقصى */
+    margin: 0 auto; /* توسيط الحاوية */
 }
 
+/* النص */
 .testimonial-text {
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1rem; /* حجم النص */
+    line-height: 1.6; /* ارتفاع الأسطر */
     color: #666666;
-    max-width: 600px;
-    text-align: center;
+    max-width: 600px; /* العرض الأقصى للنص */
+    text-align: center; /* محاذاة النص في الوسط */
 }
 
+/* الأسهم */
 .arrow {
     width: 50px;
     height: 50px;
-    background-color: #e6e6e6;
+    background-color: #e6e6e6; /* لون الخلفية الرمادي للسهم */
     border: none;
-    border-radius: 50%;
-    font-size: 1.5rem;
+    border-radius: 50%; /* شكل دائري */
+    font-size: 1.5rem; /* حجم رمز السهم */
     color: #333333;
     display: flex;
     justify-content: center;
@@ -619,80 +635,87 @@ body {
     transition: background-color 0.3s ease;
 }
 
+/* تأثير hover للأسهم */
 .arrow:hover {
-    background-color: #cccccc;
+    background-color: #cccccc; /* لون عند التمرير */
 }
 
+/* السهم الأيسر */
 .left-arrow {
-    background-color: #e6e6e6;
+    background-color: #e6e6e6; /* لون رمادي */
 }
 
+/* السهم الأيمن */
 .right-arrow {
-    background-color: #ffd700;
+    background-color: #ffd700; /* لون أصفر */
     color: #ffffff;
 }
-
+/* تصميم القسم */
 .testimonial-section {
-    width: 100%;
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f9f9f9;
+    width: 100%; /* عرض كامل */
+    text-align: center; /* محاذاة النصوص والصور في الوسط */
+    padding: 50px 20px; /* مسافات داخلية */
+    background-color: #f9f9f9; /* لون الخلفية */
 }
 
+/* حاوية القسم */
 .testimonial-container {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px; /* العرض الأقصى للمحتوى */
+    margin: 0 auto; /* توسيط الحاوية */
 }
 
+/* النص */
 .testimonial-text p {
     font-size: 1.2rem;
     line-height: 1.6;
     color: #666666;
-    margin-bottom: 30px;
-    font-style: italic;
+    margin-bottom: 30px; /* مسافة بين النص والصورة */
+    font-style: italic; /* نص مائل */
 }
 
+/* صورة الشخص */
 .testimonial-image img {
-    width: 150px;
+    width: 150px; /* حجم الصورة */
     height: 150px;
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    border-radius: 50%; /* صورة دائرية */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف حول الصورة */
+    margin-bottom: 20px; /* مسافة بين الصورة والنقاط */
 }
 
+/* النقاط أسفل الصورة */
 .testimonial-pagination {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
+/* تصميم النقاط */
 .testimonial-pagination .dot {
     width: 12px;
     height: 12px;
-    background-color: #cccccc;
-    border-radius: 50%;
+    background-color: #cccccc; /* لون افتراضي */
+    border-radius: 50%; /* شكل دائري */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .testimonial-pagination .dot.active {
-    background-color: #336e65;
-}
+    background-color: #336e65; }
 
 .testimonial-pagination .dot:hover {
-    background-color: #555555;
+    background-color: #555555; /* لون عند التمرير */
 }
-
+/* قسم Recently Blog */
 .recently-blog {
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* لون الخلفية */
 }
 
 .blog-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* مسافة بين العنوان والبطاقات */
 }
 
 .blog-header h2 {
@@ -716,22 +739,22 @@ body {
 }
 
 .blog-card {
-    width: 30%;
-    background-color: #ffffff;
+    width: 30%; /* العرض لكل بطاقة */
+    background-color: #ffffff; /* خلفية البطاقة */
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل البطاقة */
+    overflow: hidden; /* قص أي محتوى زائد */
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .blog-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* رفع البطاقة عند التمرير */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .blog-card img {
-    width: 100%;
+    width: 100%; /* عرض الصورة بالكامل */
     height: auto;
     display: block;
 }
@@ -747,21 +770,16 @@ body {
     color: #666666;
     margin: 0 20px 15px;
 }
-
-.recently-blog {
-    background-color: #f0fff6;
-}
-
-.testimonial-section {
-    background-color: #f0fff6;
-}
-
+.recently-blog{background-color: #f0fff6;}
+.testimonial-section{background-color: #f0fff6;}
+/* تصميم الخلفية */
 .footer {
     background-color: #f9f9f9;
     padding: 50px 20px;
     text-align: center;
 }
 
+/* قسم النشرة البريدية */
 .newsletter-section {
     display: flex;
     justify-content: space-between;
@@ -816,82 +834,85 @@ body {
     height: auto;
 }
 
+/* قسم المعلومات */
+/* ترتيب العناصر بدقة */
 .footer-main {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    gap: 20px;
+    justify-content: space-between; /* توزيع الأعمدة بالتساوي */
+    margin-bottom: 20px; /* تقليل المسافة السفلية */
+    gap: 20px; /* إضافة مسافة بين الأعمدة */
 }
 
 .footer-logo {
-    flex: 1;
-    text-align: left;
+    flex: 1; /* تأخذ العمود الأول العرض المناسب */
+    text-align: left; /* محاذاة النصوص إلى اليسار */
 }
 
 .footer-logo h2 {
     color: #336e65;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 1.5rem; /* تصغير حجم الخط للعناوين */
+    margin-bottom: 10px; /* مسافة أسفل العنوان */
 }
 
 .footer-logo p {
-    font-size: 0.7rem;
+    font-size: 0.7rem; /* حجم النص الوصفي */
     color: #666666;
-    line-height: 1.5;
+    line-height: 1.5; /* تحسين ارتفاع الأسطر */
 }
 
 .footer-links {
-    flex: 3;
+    flex: 3; /* توزيع باقي الأعمدة بشكل أكبر */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr); /* تقسيم إلى 4 أعمدة متساوية */
+    gap: 10px; /* مسافة بين العناصر */
 }
 
 .footer-links ul {
     list-style: none;
-    text-align: left;
-    padding: 0;
-    margin: 0;
+    text-align: left; /* محاذاة النصوص إلى اليسار */
+    padding: 0; /* إزالة الحواف الداخلية */
+    margin: 0; /* إزالة الحواف الخارجية */
 }
 
 .footer-links li {
-    font-size: 0.7rem;
+    font-size: 0.7rem; /* تصغير حجم النصوص */
     color: #333333;
-    margin-bottom: 8px;
+    margin-bottom: 8px; /* تقليل المسافة بين العناصر */
 }
 
+/* أيقونات التواصل الاجتماعي */
 .social-media {
-    padding-right: 1354px;
-    margin: 15px 0;
-    font-size: 1rem;
+    margin: 15px 0; /* تقليل المسافة العلوية والسفلية */
+    font-size: 1rem; /* تصغير حجم الأيقونات */
     display: flex;
-    gap: 8px;
+    gap: 8px; /* تقليل المسافة بين الأيقونات */
     justify-content: center;
 }
 
 .social-media span {
-    width: 30px;
+    width: 30px; /* حجم الأيقونة */
     height: 30px;
-    background-color: #e6e6e6;
-    border-radius: 50%;
+    background-color: #e6e6e6; /* لون الخلفية */
+    border-radius: 50%; /* جعل الأيقونة دائرية */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1rem; /* حجم رمز الأيقونة داخل الدائرة */
     color: #333333;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .social-media span:hover {
-    background-color: #cccccc;
+    background-color: #cccccc; /* لون عند التمرير */
 }
 
+/* الجزء السفلي */
 .footer-bottom {
-    font-size: 0.7rem;
+    font-size: 0.7rem; /* تصغير النص */
     color: #666666;
-    border-top: 1px solid #cccccc;
-    padding-top: 10px;
-    text-align: center;
-    line-height: 1.5;
+    border-top: 1px solid #cccccc; /* خط علوي */
+    padding-top: 10px; /* تقليل المسافة الداخلية العلوية */
+    text-align: center; /* محاذاة النص إلى المنتصف */
+    line-height: 1.5; /* تحسين ارتفاع الأسطر */
 }
