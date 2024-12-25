@@ -1,4 +1,3 @@
-/* إعدادات عامة */
 * {
     margin: 0;
     padding: 0;
@@ -36,16 +35,16 @@ body {
 .nav-links {
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 5%;
     list-style: none;
 }
-.nav-links{padding-left: 200px;}
+.nav-links{    padding-left: 600px;}
 
 .nav-links li a {
     
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     position: relative;
     transition: color 0.3s ease;
 }
@@ -147,12 +146,13 @@ body {
 .yellow {
     margin-top: 40px;
     position: absolute;
-  top: -3px;
-  bottom: 7%;
-  left: 250px;
-  width: 48%;
-  height: 38%;
-  background-image: radial-gradient(circle, #ffcc00 2px, transparent 2px);
+    margin-left: 580px;
+    top: 36px;
+    bottom: 7%;
+    left: 100px;
+    width: 29%;
+    height: 30%;
+  background-image: radial-gradient(circle, #ffcc00 4px, transparent 2px);
   background-size: 20px 20px;
   opacity: 0.5;
   z-index: 1;
@@ -179,15 +179,14 @@ body {
 }
 
 .products-info p {
-    font-size: 0.8rem;
-    color: #666666;
+    font-size: 1.8rem;    color: #666666;
     margin-bottom: 20px;
 }
 
 .btn.explore-btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #336e65;
+    padding: 15px 59px;   
+     background-color: #336e65;
     color: #ffffff;
     text-decoration: none;
     border-radius: 25px;
@@ -209,8 +208,7 @@ body {
 
 
 .product-card {
-    height: 110%;
-    background-color: #c4cdca;
+    height: 107%;    background-color: #c4cdca;
     border-radius: 10px;
     text-align: center;
     padding: 20px 20px 40px;
@@ -234,7 +232,7 @@ body {
 
 .product-image img {
     
-    
+    margin-top: -23px;
     width: 100%;
 
     max-height: 100%;
@@ -323,20 +321,20 @@ body {
 }
 
 .choose-icon {
-    font-size: 0.5rem;
-    color: #333333;
+    font-size: 1.5rem;
+        color: #333333;
     text-align: left;
 }
 
 .choose-content h4 {
-    font-size: 0.6rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #333333;
     margin-bottom: 5px;
 }
 
 .choose-content p {
-    font-size: 0.6rem;
+    font-size: 1rem;
     color: #666666;
     line-height: 1.4;
 }
@@ -359,15 +357,14 @@ body {
     position: absolute;
     top: -45px;
     bottom: 10%;
-    left: -13%;
-    width: 50%;
-    height: 60%;
-    background-image: radial-gradient(circle, #ffcc00 2px, transparent 2px);
-    background-size: 20px 20px;
+    left: -10%;
+    width: 43%;
+    height: 42%;
+    background-image: radial-gradient(circle, #ffcc00 4px, transparent 5px);
+    background-size: 27px 20px;
     opacity: 0.5;
     z-index: 1;
 }
-/* تهيئة القسم بالكامل */
 .interior-design-section {
     display: flex;
     justify-content: space-between;
@@ -380,30 +377,32 @@ body {
   }
 
 
-/* حاوية الصور */
 
 .images-container {
     position: relative;
-    width: 50%; /* عرض الحاوية */
-    height: 400px; /* ارتفاع الحاوية ثابت */
+    width: 50%; 
+    height: 400px; 
 }
 .dot9{ position: absolute;
+    position: absolute;
     top: -65px;
     bottom: 10%;
-    left: -13%;
-    width: 50%;
-    height: 60%;
-    background-image: radial-gradient(circle, #747477 2px, transparent 2px);
+    left: -17%;
+    width: 38%;
+    height: 41%;
+    background-image: radial-gradient(circle, #747477 4px, transparent 5px);
     background-size: 20px 20px;
     opacity: 0.5;
-    }
+}
+    
 .image-large img {
    
     width: 300px;
     height: 300px;
     left: -11.20px;
     top: -0px;
-    position: relative;}
+    position: relative;
+    border-radius: 11px;}
 
    .img11{
 
@@ -413,6 +412,7 @@ body {
     margin-left: 247px;
     margin-top: -129px;
     position: absolute;
+    border-radius: 11px;
 
    }
 
@@ -422,6 +422,7 @@ body {
     margin-top: -303px;
     margin-bottom: 330px;
     position: absolute;
+    border-radius: 11px;
   }
 
 
@@ -486,7 +487,7 @@ body {
 }
 /* القسم العام */
 .products-section {
-    padding: 2% 5%;
+    padding: 4% 5%;
     background-color: #f9f9f9;
     position: relative;
 }
@@ -529,7 +530,7 @@ body {
 
 /* خلفية حول الصورة */
 .image-wrapper {
-    background-color: #e6e6e6;
+    background-color:#c6e0d0;
     border-radius: 10px;
     position: relative;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -565,7 +566,7 @@ body {
 }
 
 .card-text a {
-    font-size: 0.75rem; /* تصغير حجم الرابط */
+    font-size: 0.75rem; 
     color: #336e65;
     text-decoration: none;
     font-weight: bold;
@@ -573,53 +574,48 @@ body {
 
 .card-text a:hover {
     text-decoration: underline;
-}/* تصميم الكارد (يبقى كما هو) */
+}
 .cards-container {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-bottom: 50px; /* مسافة فاصلة بين الكارد وTestimonials */
+    margin-bottom: 50px; 
 }
 
-/* قسم Testimonials */
 .testimonials-section {
     margin-top: 500px;
     margin-right: 900px;
-    width: 100%; /* عرض كامل */
-    background-color: #f9f9f9; /* لون الخلفية */
-    padding: 50px 20px; /* مسافات داخلية */
-    margin-top: 50px; /* مسافة فوق القسم */
-    text-align: center; /* محاذاة النصوص في الوسط */
+    width: 100%; 
+    background-color: #f9f9f9; 
+    padding: 50px 20px; 
+    margin-top: 50px; 
+    text-align: center; 
 }
 
-/* العنوان */
 .testimonials-section h2 {
-    font-size: 2rem; /* حجم العنوان */
+    font-size: 2rem; 
     font-weight: bold;
     color: #333333;
-    margin-bottom: 30px; /* مسافة بين العنوان والنص */
+    margin-bottom: 30px; 
 }
 
-/* محتوى النصوص والأسهم */
 .testimonial-content {
-    display: flex; /* لعرض النص والأسهم بجانب بعض */
-    align-items: center; /* محاذاة العناصر عموديًا */
-    justify-content: center; /* محاذاة العناصر أفقيًا */
-    gap: 20px; /* مسافة بين النص والأسهم */
-    max-width: 900px; /* العرض الأقصى */
-    margin: 0 auto; /* توسيط الحاوية */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 900px; 
+    margin: 0 auto; 
 }
 
-/* النص */
 .testimonial-text {
-    font-size: 1rem; /* حجم النص */
-    line-height: 1.6; /* ارتفاع الأسطر */
+    font-size: 1rem; 
+    line-height: 1.6; 
     color: #666666;
-    max-width: 600px; /* العرض الأقصى للنص */
-    text-align: center; /* محاذاة النص في الوسط */
+    max-width: 600px; 
+    text-align: center; 
 }
 
-/* الأسهم */
 .arrow {
     width: 50px;
     height: 50px;
@@ -909,9 +905,9 @@ body {
 
 /* الجزء السفلي */
 .footer-bottom {
-    font-size: 0.7rem; /* تصغير النص */
+    font-size: 0.7rem; 
     color: #666666;
-    border-top: 1px solid #cccccc; /* خط علوي */
+    border-top: 1px solid #cccccc; 
     padding-top: 10px; /* تقليل المسافة الداخلية العلوية */
     text-align: center; /* محاذاة النص إلى المنتصف */
     line-height: 1.5; /* تحسين ارتفاع الأسطر */
